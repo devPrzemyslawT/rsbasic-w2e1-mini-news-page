@@ -1,0 +1,15 @@
+.news {
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 160px;
+	width: 80%;
+	border: 2px solid white;
+}
+
+.news > h2 {
+	color: rgb(106, 205, 210);
+}
+
+.news > p {
+	font-size: 16px;
+}

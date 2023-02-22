@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import News from "./components/News/News";
+
 function App() {
 	return (
 		<div className='App'>
@@ -12,6 +14,18 @@ function App() {
 			<div className='App-body'>
 				<h2> Always in the right place at the right time! </h2>
 				<h3> www.reactnews.reactnews </h3>
+				<News
+					header='Nowy News'
+					text='dasdasdada sdas dasdasda dsdasdasdasdasdas'
+				/>
+        <News
+					header='Nowy News'
+					text='dasdasdada sdas dasdasda dasdasdas'
+				/>
+        <News
+					header='Nowy News'
+					text='dasdasdada sdas dasdasda dasdasdasdas'
+				/>
 			</div>
 		</div>
 	);
