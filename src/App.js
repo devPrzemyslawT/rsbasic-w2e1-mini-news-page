@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import News from "./components/News/News";
+import { dataNews } from "./serverData/dataNews/dataNews";
 
 function App() {
 	return (
