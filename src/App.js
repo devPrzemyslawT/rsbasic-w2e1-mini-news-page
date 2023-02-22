@@ -15,7 +15,7 @@ function App() {
 			<div className='App-body'>
 				<h2> Always in the right place at the right time! </h2>
 				<h3> www.reactnews.reactnews </h3>
-				<News
+				{/* <News
 					header='Nowy News'
 					text='dasdasdada sdas dasdasda dsdasdasdasdasdas'
 				/>
@@ -26,7 +26,13 @@ function App() {
         <News
 					header='Nowy News'
 					text='dasdasdada sdas dasdasda dasdasdasdas'
-				/>
+				/> */}
+
+				{dataNews.map((elem, index) => {
+					return (
+						<News key={`news-${index}`} header={elem.header} text={elem.text} />
+					);
+				})}
 			</div>
 		</div>
 	);
